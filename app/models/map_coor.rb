@@ -1,0 +1,3 @@
+class MapCoor < ApplicationRecord
+
+end

@@ -1,0 +1,2 @@
+module SiteMHelper
+end
