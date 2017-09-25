@@ -7,8 +7,10 @@ class SiteMController < ApplicationController
 
  #  doca= Roo::Spreadsheet.open('/home/developer/Рабочий стол/ТЗ.xlsx')
   @doca1=[]
+laina1=0
   doca = Roo::Excelx.new("/home/developer/Рабочий стол/ТЗ.xlsx")
-
+   doca.each {|row| laina1=laina1 + 1 }
+@laina="Количесвто строк: #{laina1}"
    1.upto(3) do |row|
 
     1.upto(1) do |col|
